@@ -1,0 +1,380 @@
+body{
+    margin: 0;
+}
+*::before
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.logo1{
+    width: 45px;
+    height: 25px;
+    color: black;
+}
+
+
+.logo2{
+    width: 25px;
+    height: -80px;
+    color: black;
+    margin-top: -7px;
+}
+
+.logo3{
+    width: 25px;
+    margin-top: -7px;
+    height: -10px;
+}
+
+#shop{
+    color: rgb(54, 54, 236);
+}
+
+html{
+
+font-size: 10px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+
+.container{
+    max-width: 98rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+
+header{
+    position: fixed;
+    height: 900px;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    top: 0;
+    z-index: 1400;
+    height: 4.4rem;
+    background-color: black;
+    backdrop-filter: blur(2rem);
+}
+
+.nav-list{
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0 -1rem;
+
+}
+
+.nav-list-mobile{
+
+display: none;
+}
+
+.nav-link{
+font-size: 1.4rem;
+margin-top: 10px;
+color: #fff;
+padding: 0 1rem;
+transition: opacity .5s;
+}
+
+.nav-link:hover{
+    opacity: 0.7;
+}
+
+.nav-list-apple{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url(images/apple-icon.png)center no-repeat;
+}
+
+.nav-list-search{
+    width: 1.6rem;
+    height: 4.4rem;
+    background: url()center no-repeat;
+}
+
+.nav-list-bag{
+    width: 1.4rem;
+    height: 4.4rem;
+    background: url()center no-repeat;
+}
+
+
+.sub-heading{
+    text-align: center;
+    position: relative;
+    margin-top: 48px;
+    width: 100%;
+    color: white;
+   background-color: #0e93ff;
+   padding: 1px;
+   font-size: 15px;
+
+}
+
+
+
+
+.sub-heading2{
+    text-align: center;
+    width: 100%;
+    color: rgb(75, 72, 72);
+   background-color: #e1e7ec;
+   padding: 1px;
+   font-size: 15px;
+
+}
+
+
+.iphone-12{
+    background: url(images/iphone12.jpg);
+    margin-top: 4.4rem;
+   background-size: 100% 100%;
+}
+
+
+.hero{
+height: 69.2rem;
+
+background-size: auto 73.6rem;
+background-position: center;
+background-repeat: no-repeat;
+border-top: .6rem solid rgb(3, 0, 0);
+border-bottom: .6rem solid rgb(12, 0, 0);
+}
+
+.iphone-12{
+    border-top: none;
+}
+
+
+.title{
+    color: rgb(12, 1, 1);
+    text-align: center;
+    padding-top: 5.5rem;
+}
+
+.title-heading{
+font-size: 5.6rem;
+line-height: 1.07143;
+list-style-type: -.005rem;
+margin-top: -40px;
+
+}
+
+.title-sub-heading{
+    font-size: 2.65rem;
+    margin-top: -40px;
+    letter-spacing: .008rem;
+    font-weight: 400;
+}
+
+.title-price{
+    font-size: 1.7rem;
+    color: #888;
+    margin-top: 1.8rem;
+}
+.cta{
+    text-align: center;display: flex;justify-content: center;
+}
+
+.cta-link{
+    color: #0072cf;
+    font-size: 2.5rem;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+
+.cta-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+
+.cta-link:hover{
+    border-bottom: 2px solid #006bc2;
+}
+
+
+
+.iphone-12-pro{
+    background-image: url(images/iphonee12.jpg);
+    background-size: 100% 100%;
+    height: 650px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+   
+}
+
+.title-heading2{
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.title-sub-heading2{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.watchabc{
+    margin-top: 0;
+    width: 180px;
+    height: 70px;
+}
+
+.title-sub-headingabc{
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+
+.watch{
+background-image: url(images/hero_apple_card__bt4lpouoeyoi_medium.jpg);
+background-size: 100% 100%;
+height: 500px;
+margin-top: 80px;
+background-repeat: no-repeat;
+
+
+}
+
+
+
+.ab1{
+    position: absolute;
+    width: 700px;
+    height: 750px;
+}
+
+.ab11{
+    position: relative;
+    color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    top: 100px;
+    line-height: 1;
+    margin-left: 220px;
+}
+
+.ab11 p{
+    font-size: 30px;
+    font-weight: normal;
+    margin-left: -5px;
+    margin-top: -50px;
+
+}
+
+
+
+
+.ab2{
+    position: absolute;
+    right: 100px;
+    width: 500px;
+    margin-top: 70px;
+   
+    
+}
+
+
+.ab3{
+    position: absolute;
+    width: 700px;
+    margin-top: 580px;
+}
+
+
+.ab4{
+    position: absolute;
+     right: 5px;
+    width: 800px;
+    margin-top: 515px;
+    height: 470px;
+}
+
+.ab5{
+    position: absolute;
+    margin-top: 560px;
+    width: 700px;
+    height: 550px;
+}
+
+#ab5{
+    position: relative;
+    color: rgb(238, 238, 238);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 200px;
+    margin-top: 450px;
+    font-weight: 700;
+    font-size: 50px;
+    top: 100px;
+}
+
+#ab55{
+    position: relative;
+    color: rgb(240, 240, 240);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 220px;
+    margin-top: -40px;
+    font-weight: 50;
+    font-size: 25px;
+    top: 100px;
+
+}
+
+.ab6{
+    position: absolute;
+    right: 5px;
+    margin-top: 450px;
+    width: 810px;
+    height: 550px;
+}
+
+.table1{
+    font-size: 1.7rem;
+    margin-top: 7.8rem;
+    text-align: center;
+}
+
+.shop:hover{
+   
+    border-bottom-color: #0b0c0c;
+}
+.shop{
+color: black;
+
+}
+
+
+
+.discription{
+    color: #888;
+    width: 1100px;
+    margin-left: 200px;
+    margin-top: 1100px;
+    font-weight: 450;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.table{
+    justify-content: space-between;
+    padding: 40px;
+    margin-right: 40px;
+}
